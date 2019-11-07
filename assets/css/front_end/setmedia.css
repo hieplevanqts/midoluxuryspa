@@ -1,0 +1,74 @@
+@media (min-width:1200px) /* lg*/ {
+    .row_pc{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .container{
+        width: 1200px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) /* md*/{
+    .nav-menu > .menu-item {
+        padding: 0px 10px 0px 10px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) /* sm*/{
+    .sc_head_bot {
+        padding: 0px 0px 0px 0px;
+        background-color: transparent;
+    }
+}
+
+@media (max-width:767px) /* xs*/{
+    .sc_head_bot {
+        padding: 0px 0px 0px 0px;
+        background-color: transparent;
+    }
+}
+
+@media (max-width:480px) {
+    .col-480-12 {
+        width: 100% !important;
+    }
+    .col-480-6 {
+        width: 50% !important;
+    }
+    .hidden-480 {
+        display: none !important;
+    }
+    .box_service img{
+        height: 345px;
+    }
+    .sc_head_top{
+        display: none;
+    }
+    .button_send{
+        width: 20% !important;
+    }
+   .logo_mb img{
+    width: 25%;
+    transform: translateX(-30px);
+   }
+   .slider_main{
+    margin-top: 25px;
+   }
+   .image_ext img{
+    height: 250px !important;
+   }
+   .owl-next i{
+    top: 90px !important;
+   }
+   .owl-prev i{
+    top: 90px !important;
+   }
+  /*  .fb_dialog_mobile{
+    top: 10% !important;
+   } */
+}
+
+
+.visible-480{
+    display: none;
+}
